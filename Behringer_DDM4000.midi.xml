@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="">
+    <info>
+        <name>Behringer_DDM4000</name>
+    </info>
+    <controller id="">
+        <scriptfiles/>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>start</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0xB0</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
