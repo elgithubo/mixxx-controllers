@@ -16,6 +16,16 @@
                     <normal/>
                 </options>
             </control>
+            <control>
+                <group>[Master]</group>
+                <key>crossfader_set_default</key>
+                <description>MIDI Learned from 13 messages.</description>
+                <status>0x90</status>
+                <midino>0x1F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
         </controls>
         <outputs/>
     </controller>
