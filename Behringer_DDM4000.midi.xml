@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<MixxxControllerPreset schemaVersion="1" mixxxVersion="2.2.3+">
+<MixxxControllerPreset mixxxVersion="2.2.3+" schemaVersion="1">
     <info>
-        <name>Behringer DDM4000 v17</name>
+        <name>Behringer DDM4000 v18</name>
         <author>Christian</author>
         <description>Mixxx controller preset for a Behringer DDM4000 mixer.</description>
     </info>
@@ -174,6 +174,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>pregain</key>
+                <description>MIDI Learned from 177 messages.</description>
+                <status>0xBF</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group></group>
                 <key>DDM4000.input</key>
                 <description>Channel 3: Volume</description>
@@ -256,7 +266,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>rate</key>
-                <description>MIDI Learned from 288 messages.</description>
+                <description>MIDI Learned from 175 messages.</description>
                 <status>0xBF</status>
                 <midino>0x0B</midino>
                 <options>
@@ -344,6 +354,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>rate</key>
+                <description>MIDI Learned from 114 messages.</description>
+                <status>0xBF</status>
+                <midino>0x0F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group></group>
                 <key>DDM4000.input</key>
                 <description>Channel 4: Pot Low</description>
@@ -384,6 +404,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>pregain</key>
+                <description>MIDI Learned from 132 messages.</description>
+                <status>0xBF</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group></group>
                 <key>DDM4000.input</key>
                 <description>Crossfader: Curve</description>
@@ -404,6 +434,16 @@
                 </options>
             </control>
             <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <description>MIDI Learned from 190 messages.</description>
+                <status>0xBF</status>
+                <midino>0x15</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group></group>
                 <key>DDM4000.input</key>
                 <description>Crossfader: A Full Freq</description>
@@ -411,6 +451,16 @@
                 <midino>0x17</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9F</status>
+                <midino>0x17</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
@@ -451,6 +501,16 @@
                 <midino>0x1B</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9F</status>
+                <midino>0x1B</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
@@ -764,6 +824,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9F</status>
+                <midino>0x6E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group></group>
                 <key>DDM4000.input</key>
                 <description>Sampler: Bank 1 Mode</description>
@@ -781,6 +851,16 @@
                 <midino>0x73</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x9F</status>
+                <midino>0x73</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
